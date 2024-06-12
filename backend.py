@@ -2,6 +2,7 @@ from openai import OpenAI
 
 class Chatbot:
     def __init__(self):
+        #Replace placeholder text with your chatgpt api-key
         self.client = OpenAI(api_key = "<api-key>")
     
     def get_response(self, user_input):
